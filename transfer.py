@@ -70,7 +70,7 @@ def transfer_to_frame(content, style, vgg, device):
 
     # iteration hyperparameters
     optimizer = optim.Adam([target], lr=0.003)
-    steps = 10000  # decide how many iterations to update your image (5000)
+    steps = 5000  # decide how many iterations to update your image (5000)
 
     for ii in tqdm(range(1, steps+1)):
         ## Get the features from the target image
