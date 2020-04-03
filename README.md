@@ -17,15 +17,15 @@ Note that the *results* folder contains some sample results and it is not used f
 ## Folder structure
 
 	.
-	├── frames 										# holds the frames for the current video
-	│     ├── input frames 							# holds the input frames from the original video
-	│     └── style frames 							# holds the stylized frames, which will be used to make the stylized output video
-	├── input videos 								# holds some sample videos for input
-	├── results										# holds some sample results
-	│	 └── {input video name}						# there is one folder for each sample input video
-	│	 	  ├── original frames 					# holds the input frames from the original video
-	│	 	  ├── {name of style file} style 		# holds the stylized results
-	│	 	  │	   ├── style frames 				# holds the stylized frames, which were used to make the stylized output video
-	│	 	  │	   └── stylized_video.mp4 			# the stylized output video
-	│	 	  └── properties.pkl 					# pickle file that contains the input video's properties
-	└── styles 										# holds some sample style images
+	├── frames                                      # holds the frames for the current video
+	│     ├── input frames                          # holds the input frames from the original video
+	│     └── style frames                          # holds the stylized frames, which will be used to make the stylized output video
+	├── input videos                                # holds some sample videos for input
+	├── results                                     # holds some sample results
+	│	 └── {input video name}                     # there is one folder for each sample input video
+	│	 	  ├── original frames                   # holds the input frames from the original video
+	│	 	  ├── {name of style file} style        # holds the stylized results
+	│	 	  │	   ├── style frames                 # holds the stylized frames, which were used to make the stylized output video
+	│	 	  │	   └── stylized_video.mp4           # the stylized output video
+	│	 	  └── properties.pkl                    # pickle file that contains the input video's properties
+	└── styles                                      # holds some sample style images
